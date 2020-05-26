@@ -1,1 +1,1 @@
-# bsamp-darkmode
+# Balkan Samp - Dark mode theme
