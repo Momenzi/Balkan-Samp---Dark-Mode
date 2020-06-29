@@ -1,13 +1,14 @@
-@-moz-document url-prefix("https://balkan-samp.com"), url-prefix("https://balkan-samp.com/forum/index.php?action=forum") {
+@-moz-document url-prefix("https://balkan-samp.com/forum/index.php"), url-prefix("https://balkan-samp.com") {
 body {
-    background: url("https://i.imgur.com/YHuKO6v.jpg");
+    background: linear-gradient(180deg, rgb(43, 43, 43) 0%, rgb(117, 61, 0) 100%);
     font: 12px/130% Tahoma, sans-serif;
     margin: 0;
-    padding: 0
+    padding: 0;
+    background-size: cover;
 }
 #toolbar {
     height: 36px;
-    background: #40444e;
+    background: linear-gradient(90deg, rgb(43, 43, 43) 0%, rgb(242, 125, 0) 100%);
     border-top: solid 1px #606060;
 }
 #header-tab {
@@ -16,16 +17,20 @@ body {
     border-bottom: solid 1px #606060;
 }
 h3.catbg {
-    background: #40444e;
+    background: linear-gradient(90deg, rgb(43, 43, 43) 0%, rgb(242, 125, 0) 100%);
     padding-right: 9px;
 }
 div.cat_bar {
-    background: #40444e;
+    background: #2b2b2b;
     padding-left: 9px;
     height: 31px;
     overflow: hidden;
     margin-bottom: 1px;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 10px 20px 0px 10px;
+}
+div.sp_block {
+    overflow: hidden;
+    padding: 0 2em;
 }
 #header {
     position: relative;
@@ -34,8 +39,8 @@ div.cat_bar {
     background: url("https://i.imgur.com/ps7AbGj.png") repeat-x;
 }
 .avatar {
-    border-radius: 50px 0;
-    border: 2px solid #ff9900;
+    border-radius: 180px;
+    border: 3px solid #f27d00;
 }
 #footer {
     padding: 20px 40px 20px 40px;
@@ -74,8 +79,8 @@ li.postgroup {
     float: left;
     padding-left: 8px;
     width: 220px;
-    box-shadow: 1px 1px 1px 0.5px #41c69f;
-    background: #212121;
+    box-shadow: 1px 1px 0.1px 0.2px #ff8300;
+    background: url(https://i.ibb.co/R3FbZ9d/momenziback.gif);
     background-size: auto;
     border-radius: 25px 0px 35px;
 }
@@ -149,7 +154,7 @@ input:hover, textarea:hover, button:hover, select:hover {
     border: none !important;
 }
 #mainarea {
-    border-top: solid 1px #A3A9BE;
+    border-top: solid 1px #2b2b2b;
     background: #2b2b2b;
     padding: 0 2px 10px;
 }
@@ -169,12 +174,12 @@ strong {
 }
 .windowbg span.topslice span {
     display: none;
-    background: url(../images/theme/main_block.png) 100% -30px no-repeat;
+    background: url("https://balkan-samp.com/forum/Themes/bsold/images/theme/main_block.png") 100% -30px no-repeat;
     height: 15px;
 }
 .windowbg span.botslice span {
     display: none;
-    background: url(../images/theme/main_block.png) 100% -40px no-repeat;
+    background: url("https://balkan-samp.com/forum/Themes/bsold/images/theme/main_block.png") 100% -40px no-repeat;
     height: 11px;
 }
 #footer {
@@ -214,10 +219,6 @@ strong {
     text-shadow: 2px 2px 2px black;
     border-radius: 0 25px 0 25px;
 }
-.avatar {
-    border-radius: 15px 25px;
-    border: 1.5px solid #ff9900;
-}
 .table_list tbody.content td.children {
     background: #40444e;
     color: #555;
@@ -228,7 +229,7 @@ strong {
 }
 .windowbg2 span.topslice span {
     display: none;
-    background: url(../images/theme/main_block.png) 100% -60px no-repeat;
+    background: url("https://balkan-samp.com/forum/Themes/bsold/images/theme/main_block.png") 100% -60px no-repeat;
     height: 11px;
 }
 table.table_list tbody.content td.icon {
@@ -244,15 +245,6 @@ table.table_list tbody.content td.stats {
     background: #40444e;
     border-radius: 0px 5px 0px 5px;
 }
-.poster {
-    float: left;
-    padding-left: 8px;
-    width: 220px;
-    box-shadow: 1px 1px 1px 0.5px #41c69f;
-    background: #212121;
-    background-size: auto;
-    border-radius: 25px 0px 35px;
-}
 .roundframe {
     padding: 0 10px;
     background: #2b2b2b;
@@ -263,7 +255,7 @@ span.upperframe span {
     padding: 0;
     height: 12px;
     display: none;
-    background: url(../images/theme/main_block.png) 100% -90px no-repeat;
+    background: url("https://balkan-samp.com/forum/Themes/bsold/images/theme/main_block.png") 100% -90px no-repeat;
 }
 .thank_you_button {
     background: url(https://i.imgur.com/gEZuMfr.png) no-repeat transparent;
@@ -273,7 +265,7 @@ element.style {
 }
 .windowbg2 span.botslice span {
     display: none;
-    background: url(../images/theme/main_block.png) 100% -71px no-repeat;
+    background: url("https://balkan-samp.com/forum/Themes/bsold/images/theme/main_block.png") 100% -71px no-repeat;
     height: 11px;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -314,7 +306,7 @@ blockquote.bbc_standard_quote, blockquote.bbc_alternate_quote {
     font-size: 11px;
     color: #ffffff;
     line-height: 1.4em;
-    background: url(../images/theme/quote.png) 0.1em 0.1em no-repeat;
+    background: url("https://balkan-samp.com/forum/Themes/bsold/images/theme/quote.png") 0.1em 0.1em no-repeat;
     border: 1px solid #cfcfcf;
     padding: 1.1em 1.4em;
     margin: 0.1em 0 0.3em 0;
@@ -333,14 +325,6 @@ a img {
     padding: 4px 0;
     margin-left: -1px;
     margin-top: 7px;
-}
-div.cat_bar {
-    background: #40444e;
-    padding-left: 9px;
-    height: 31px;
-    overflow: hidden;
-    margin-bottom: 1px;
-    border-radius: 7px 0px 30px 7px;
 }
 .dropmenu li a.active {
     background: url(https://i.ibb.co/CnBygJr/menu-gfx.png) no-repeat 100% 0;
